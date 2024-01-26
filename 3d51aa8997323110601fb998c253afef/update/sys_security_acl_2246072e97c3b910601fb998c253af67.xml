@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_982322_safety_confidential_code</name>
+        <operation display_value="create">create</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-14 20:16:02</sys_created_on>
+        <sys_id>2246072e97c3b910601fb998c253af67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_982322_safety_confidential_code</sys_name>
+        <sys_package display_value="Safety" source="x_982322_safety">3d51aa8997323110601fb998c253afef</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">3d51aa8997323110601fb998c253afef</sys_scope>
+        <sys_update_name>sys_security_acl_2246072e97c3b910601fb998c253af67</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-14 20:16:02</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>
