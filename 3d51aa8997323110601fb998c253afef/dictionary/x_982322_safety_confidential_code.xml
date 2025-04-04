@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="6d46832e97c3b910601fb998c253afa4" label="confidential_code" max_length="40" name="x_982322_safety_confidential_code" type="collection">
         <element label="date_request" max_length="40" name="date_request" type="glide_date_time"/>
+        <element label="vin" max_length="17" name="vin" type="string"/>
         <element label="Dealer_code" max_length="7" name="dealer_code" type="string"/>
         <element label="reference" max_length="14" name="reference" type="string"/>
+        <element choice="1" label="vehicle_age" max_length="40" name="vehicle_age" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="between 3 and 6 monthq" sequence="1" value="between_3_and_6_monthq"/>
+                <element inactive_on_update="false" label="more than 6 months" sequence="2" value="more_than_6_months"/>
+                <element inactive_on_update="false" label="&lt;3 mois" sequence="0" value="3_mois"/>
+            </choice>
+        </element>
         <element label="userid" max_length="8" name="userid" type="string"/>
-        <element label="vin" max_length="17" name="vin" type="string"/>
     </element>
 </database>
