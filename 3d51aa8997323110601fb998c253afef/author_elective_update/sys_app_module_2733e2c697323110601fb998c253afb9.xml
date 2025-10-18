@@ -65,7 +65,7 @@
         <update_guid_history>2f33e2c6e63231107a6d14913b805cbb:-499932580</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Safety 1701367815409">3d94ae4a97323110601fb998c253af18</sys_audit_delete>
+        <sys_audit_delete display_value="">3d94ae4a97323110601fb998c253af18</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-11-30 18:16:09</sys_created_on>
